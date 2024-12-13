@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WickWise</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      body {
+        background-image: url("../pics/download.jpg");
+        background-color: #2f120ad0;
+        background-blend-mode: lighten;
+        color: #f4efeb;
+        background-size: cover;
+        background-position: center;
+      }
+      #contactform {
+        background-color: rgba(16, 9, 3, 0.792);
+        width: 30%;
+        padding-right: 11%;
+        padding-left: 5%;
+        padding-bottom: 2%;
+        border-radius: 5px;
+        margin-top: 2%;
+      }
+      #contactform input {
+        border-radius: 5px;
+      }
+      #contactform button {
+        font-size: 20px;
+        margin-left: 20%;
+        width: 70%;
+        height: 50px;
+        background-color: #8d756c;
+        border-style: none;
+        border-radius: 5px;
+        color: #f4efeb;
+      }
+      #contactform button:hover {
+        background-color: #b3958b;
+        cursor: pointer;
+      }
+      .form-text,
+      .form-control {
+        font-size: 20px;
+      }
+
+      .form-control {
+        padding: 2% 30%;
+      }
+      .form {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Navbar">
+      <div class="titlebar">
+        <h1 class="title">WikeWise</h1>
+        <h3 class="sub">Candel making course</h3>
+      </div>
+      <div class="navigation">
+        <nav>
+          <a href="Home.html" style="padding: 5px">Home</a>
+          <a href="Aboutus.html" style="padding: 5px">About Us</a>
+          <a href="Courseoverview.html" style="padding: 5px">Course Overview</a>
+          <a href="Contactus.html" style="padding: 5px"> Contact Us</a>
+          <a href="Successstories.html" style="padding: 5px">Success Stories</a>
+          <a href="Resourcelibrary.html" style="padding: 5px"
+            >Resource Library</a
+          >
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <form
+        id="contactform"
+        action="mailto:ayahhaltam@gmail.com"
+        method="post"
+        style="color: #f4efeb"
+      >
+        <br />
+        <p class="form-text">First Name:</p>
+        <input type="text" class="form-control" />
+
+        <p class="form-text">Second Name:</p>
+        <input type="text" class="form-control" />
+
+        <p class="form-text">Email Address:</p>
+        <input type="email" class="form-control" />
+
+        <p class="form-text">Phone Number:</p>
+        <input type="text" class="form-control" />
+        <div class="form">
+          <div class="country">
+            <p class="form-text">Country:</p>
+            <select
+              name=""
+              class="form-control"
+              class="form-floating"
+              style="padding: 2% 10%"
+            >
+              <option selected>Jordan</option>
+              <option>palestine</option>
+              <option>America</option>
+              <option>Egypt</option>
+              <option>Syria</option>
+              <option>China</option>
+            </select>
+          </div>
+          <div
+            class="gender"
+            style="margin-top: 6%; margin-left: 30%; font-size: 20px"
+          >
+            <div style="padding-bottom: 10%; margin: 2%">Select a gender:</div>
+
+            <input type="radio" name="gender" />Male
+            <input type="radio" name="gender" />Female
+          </div>
+        </div>
+        <p class="form-text">Your Message:</p>
+        <textarea rows="3" class="form-control"></textarea>
+        <br /><br />
+        <button mailto:ayahhaltam@gmail.com>Contact Us</button>
+      </form>
+    </div>
+  </body>
+</html>

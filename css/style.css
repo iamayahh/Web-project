@@ -1,0 +1,44 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Navbar {
+  background-color: #39231c;
+  color: #f4efeb;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.navigation {
+  margin-right: 5%;
+  text-align: right;
+  flex-wrap: wrap;
+  flex: auto;
+  position: relative;
+}
+div.titlebar {
+  margin-left: 5%;
+}
+div .sub {
+  font-weight: normal;
+}
+nav a:link {
+  text-decoration: none;
+  color: #f4efeb;
+}
+nav a:visited {
+  color: #f4efeb;
+}
+nav a:hover {
+  color: #f4efeb;
+}
+nav a:active {
+  color: #f4efeb;
+}

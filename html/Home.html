@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WickWise</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      body {
+        background-image: url("../pics/download.jpg");
+        background-color: #2f120ad0;
+        background-blend-mode: lighten;
+        color: #f4efeb;
+        background-size: cover;
+        background-position: center;
+      }
+      .Navbar {
+        background-color: rgba(16, 9, 3, 0.792);
+      }
+      div.text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+      h1.p1 {
+        font-size: 70px;
+        margin: 5%;
+        padding-right: 50px;
+      }
+      div.p2 {
+        text-align: center;
+        font-size: 40px;
+        margin: 5%;
+        padding-right: 50px;
+      }
+      #learn-more {
+        background-color: rgba(16, 9, 3, 0.436);
+        color: #f4efeb;
+        border: solid #f4efeb 0.5px;
+        padding: 20px 40px;
+        font-size: 20px;
+      }
+      #learn-more:hover {
+        background-color: rgba(0, 0, 0, 0.436);
+        color: #f4efeb;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Navbar">
+      <div class="titlebar">
+        <h1 class="title">WickWise</h1>
+        <h3 class="sub">Candel making course</h3>
+      </div>
+      <div class="navigation">
+        <nav>
+          <a href="Home.html" style="padding: 5px">Home</a>
+          <a href="Aboutus.html" style="padding: 5px">About Us</a>
+          <a href="Courseoverview.html" style="padding: 5px">Course Overview</a>
+          <a href="Contactus.html" style="padding: 5px"> Contact Us</a>
+          <a href="Successstories.html" style="padding: 5px">Success Stories</a>
+          <a href="Resourcelibrary.html" style="padding: 5px"
+            >Resource Library</a
+          >
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <div class="text">
+        <h1 class="p1">Your guide to make Perfect Candles</h1>
+        <div class="p2">
+          <p>Want to start a candle business, but don’t know where to start?</p>
+          <form
+            onclick="window.location.href='courseoverview.html';"
+            method="Post"
+          >
+            <input
+              type="button"
+              name="button"
+              id="learn-more"
+              value="Learn More"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
