@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WickWise</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <style>
       div.wax-types {
@@ -17,7 +23,7 @@
       }
       .types2 {
         display: flex;
-        margin: 2% 5%;
+        margin: 10px;
         flex-direction: column;
         align-items: center;
         position: relative;
@@ -62,127 +68,157 @@
     </style>
   </head>
   <body>
-    <div class="Navbar">
-      <div class="titlebar">
-        <h1 class="title">WickWise</h1>
-        <h3 class="sub">Candel making course</h3>
-      </div>
-      <div class="navigation">
-        <nav>
-          <a href="Home.html" style="padding: 5px">Home</a>
-          <a href="Aboutus.html" style="padding: 5px">About Us</a>
-          <a href="Courseoverview.html" style="padding: 5px">Course Overview</a>
-          <a href="Contactus.html" style="padding: 5px"> Contact Us</a>
-          <a href="Successstories.html" style="padding: 5px">Success Stories</a>
-          <a href="Resourcelibrary.html" style="padding: 5px"
-            >Resource Library</a
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <div class="container-fluid">
+      <nav class="row navbar navbar-expand-sm">
+        <div class="navbar-nav">
+          <div class="titlebar">
+            <h1 class="title">WickWise</h1>
+            <h3 class="sub">Candel making course</h3>
+          </div>
+          <div class="navi">
+            <a href="Home.html" class="nav-item p-2">Home</a>
+
+            <a href="Aboutus.html" class="nav-item p-2">About Us</a>
+
+            <a href="Courseoverview.html" class="nav-item p-2"
+              >Course Overview</a
+            >
+
+            <a href="Contactus.html" class="nav-item p-2"> Contact Us</a>
+
+            <a href="Successstories.html" class="nav-item p-2"
+              >Success Stories</a
+            >
+
+            <a href="Resourcelibrary.html" class="nav-item p-2"
+              >Resource Library</a
+            >
+
+            <a href="Form.html" class="nav-item">Form</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="wax-types row" style="flex-wrap: wrap">
+        <h2
+          class="type row"
+          style="
+            text-align: center;
+            font-size: 40px;
+            text-decoration: underline grey;
+            justify-content: center;
+          "
+        >
+          Types of Wax Used in Candle Making
+        </h2>
+        <p class="row" style="justify-content: center; font-size: 20px">
+          There are several types of wax, each used for different purposes based
+          on its characteristics. Below are the main types:
+        </p>
+
+        <ul class="types">
+          <div class="row p-5">
+            <div class="card types2 col-6">
+              <li style="justify-content: center">
+                <strong>Paraffin Wax:</strong> The most common and widely used
+                type in traditional candles. It is affordable, easy to color,
+                and infuse with scents.
+              </li>
+              <img
+                src="../pics/parrafin.jpg"
+                alt="pic"
+                style="width: 300px; margin: 5% 15%"
+              />
+            </div>
+            <div class="card types2 col-6">
+              <li style="justify-content: center">
+                <strong>Beeswax:</strong> Derived from honeycombs, it has a
+                light honey scent. It is natural, environmentally friendly, and
+                burns cleanly and slowly.
+              </li>
+              <img
+                src="../pics/beeswax.jpg"
+                alt="pic"
+                style="width: 300px; margin: 5% 15%"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="card types2 col-6">
+              <li style="justify-content: center">
+                <strong>Soy Wax:</strong> Made from soybean oil, it is an
+                eco-friendly alternative to paraffin wax. It burns longer and is
+                ideal for scented candles.
+              </li>
+              <img
+                src="../pics/soy wax.jpg"
+                alt="pic"
+                style="width: 300px; margin: 5% 15%"
+              />
+            </div>
+            <div class="card types2 col-6">
+              <li style="justify-content: center">
+                <strong>Coconut Wax:</strong> Extracted from coconut oil, it is
+                another natural and eco-friendly option. It has a low melting
+                point and works well with scents.
+              </li>
+              <img
+                src="../pics/coconutwax.jpg"
+                alt="pic"
+                style="width: 300px; margin: 5% 15%"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="card types2 col-6">
+              <li style="justify-content: center">
+                <strong>Gel Wax:</strong> Made from mineral oils, this wax is
+                transparent and used to create visually appealing candles with
+                embedded decorations like shells or stones.
+              </li>
+              <img
+                src="../pics/gelwax.jpg"
+                alt="pic"
+                style="width: 300px; margin: 5% 15%"
+              />
+            </div>
+            <div class="card types2 col-6">
+              <li style="justify-content: center">
+                <strong>Palm Wax:</strong> Derived from palm oil, it has a
+                unique crystalline appearance that adds decorative patterns to
+                candles.
+              </li>
+              <img
+                src="../pics/palmwax.jpg"
+                alt="pic"
+                style="width: 300px; margin: 5% 15%"
+              />
+            </div>
+          </div>
+        </ul>
+        <div class="buttons">
+          <form
+            onclick="window.location.href='Courseoverview.html';"
+            method="Post"
           >
-        </nav>
-      </div>
-    </div>
-
-    <div class="wax-types">
-      <h2
-        class="type"
-        style="
-          text-align: center;
-          font-size: 40px;
-          text-decoration: underline grey;
-        "
-      >
-        Types of Wax Used in Candle Making
-      </h2>
-      <p style="text-align: center; font-size: 20px">
-        There are several types of wax, each used for different purposes based
-        on its characteristics. Below are the main types:
-      </p>
-
-      <ul class="types">
-        <div class="types2">
-          <li style="padding-top: 12%; padding-right: 10%">
-            <strong>Paraffin Wax:</strong> The most common and widely used type
-            in traditional candles. It is affordable, easy to color, and infuse
-            with scents.
-          </li>
-          <img
-            src="../pics/parrafin.jpg"
-            alt="pic"
-            style="width: 300px; margin: 5% 15%"
-          />
+            <input type="button" value="Back to Course Overview" id="back" />
+          </form>
+          <form
+            onclick="window.location.href='Courseoverview3.html';"
+            method="Post"
+          >
+            <input
+              type="button"
+              value="Continue with the Course"
+              id="continue"
+            />
+          </form>
         </div>
-        <div class="types2">
-          <li style="padding-top: 12%; padding-right: 10%">
-            <strong>Beeswax:</strong> Derived from honeycombs, it has a light
-            honey scent. It is natural, environmentally friendly, and burns
-            cleanly and slowly.
-          </li>
-          <img
-            src="../pics/beeswax.jpg"
-            alt="pic"
-            style="width: 300px; margin: 5% 15%"
-          />
-        </div>
-        <div class="types2">
-          <li style="padding-top: 12%; padding-right: 10%">
-            <strong>Soy Wax:</strong> Made from soybean oil, it is an
-            eco-friendly alternative to paraffin wax. It burns longer and is
-            ideal for scented candles.
-          </li>
-          <img
-            src="../pics/soy wax.jpg"
-            alt="pic"
-            style="width: 300px; margin: 5% 15%"
-          />
-        </div>
-        <div class="types2">
-          <li style="padding-top: 12%; padding-right: 10%">
-            <strong>Coconut Wax:</strong> Extracted from coconut oil, it is
-            another natural and eco-friendly option. It has a low melting point
-            and works well with scents.
-          </li>
-          <img
-            src="../pics/coconutwax.jpg"
-            alt="pic"
-            style="width: 300px; margin: 5% 15%"
-          />
-        </div>
-        <div class="types2">
-          <li style="padding-top: 12%; padding-right: 10%">
-            <strong>Gel Wax:</strong> Made from mineral oils, this wax is
-            transparent and used to create visually appealing candles with
-            embedded decorations like shells or stones.
-          </li>
-          <img
-            src="../pics/gelwax.jpg"
-            alt="pic"
-            style="width: 300px; margin: 5% 15%"
-          />
-        </div>
-        <div class="types2">
-          <li style="padding-top: 12%; padding-right: 10%">
-            <strong>Palm Wax:</strong> Derived from palm oil, it has a unique
-            crystalline appearance that adds decorative patterns to candles.
-          </li>
-          <img
-            src="../pics/palmwax.jpg"
-            alt="pic"
-            style="width: 300px; margin: 5% 15%"
-          />
-        </div>
-      </ul>
-      <div class="buttons">
-        <form
-          onclick="window.location.href='Courseoverview.html';"
-          method="Post"
-        >
-          <input type="button" value="Back to Course Overview" id="back" />
-        </form>
-        <form
-          onclick="window.location.href='Courseoverview3.html';"
-          method="Post"
-        >
-          <input type="button" value="Continue with the Course" id="continue" />
-        </form>
       </div>
     </div>
   </body>
